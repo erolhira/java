@@ -13,4 +13,9 @@ public class EnumTest {
 	public void testComplexEnum(){
 		System.out.println(PowerState.ON.getDescription());
 	}	
+	
+	@Test
+	public void testCommandEnum() {
+		Command.GO.perform("to school");
+	}
 }

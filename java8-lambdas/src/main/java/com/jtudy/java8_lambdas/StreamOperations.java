@@ -45,6 +45,17 @@ public class StreamOperations {
 	}
 	
 	@Test
+	public void testPeek2(){
+		
+		names.stream()
+			.filter(p -> p.length() > 2)
+			.peek(c -> System.out.println("Filtered Value 2: " + c))
+			.filter(p -> p.length() > 4)
+			.peek(c -> System.out.println("Filtered Value 4: " + c))
+			.collect(Collectors.toList());		
+	}
+	
+	@Test
 	public void testAllMatch(){
 		boolean allGreaterThan1 = numbers.stream().allMatch(p -> p > 1);
 		System.out.println("allGreatedThan1: " + allGreaterThan1);

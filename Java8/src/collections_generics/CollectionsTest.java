@@ -106,7 +106,10 @@ public class CollectionsTest {
 		Consumer<Person> consumer = t -> t.printSummary();
 		List<Person> persons = Person.createShortList();
 		
+		//call consumer.accpet for each of filtered persons
 		persons.stream().filter(YOUNG).forEach(consumer);		
+		
+		//call consumer.accept for the first person
 		consumer.accept(persons.get(0));
 	}
 	

@@ -97,8 +97,7 @@ public class FunctionalInterfacesStudy {
 		//groupingBy		
 		Map<Integer, List<String>> map = list.stream().collect(Collectors.groupingBy(t -> t.hashCode()));
 		map.forEach((k,v) -> System.out.println(k + ": " + v));
-		
-		System.out.println("asdasdasdasdadasdasd");
+				
 	}
 
 }

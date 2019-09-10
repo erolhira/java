@@ -22,9 +22,17 @@ public class BuiltinFunctionalInterfaces {
 		System.out.println(equals);
 	}
 	
+	public boolean equals(String a, String b, BiPredicate<String, String> equalsPredicate){
+		return equalsPredicate.test(a, b);
+	}
+	
 	@Test
 	public void supplierTest(){
 		display(() -> 4);
+	}
+	
+	public void display(Supplier<Integer> arg){
+		System.out.println(arg.get());
 	}
 	
 	@Test
@@ -36,11 +44,7 @@ public class BuiltinFunctionalInterfaces {
 	public void transformerTest(){
 		String greeting = transformIntoGreeting("Erol", (r) -> "Hello " + r);
 		System.out.println(greeting);
-	}
-	
-	public void display(Supplier<Integer> arg){
-		System.out.println(arg.get());
-	}
+	}		
 	
 	public String transformIntoGreeting(String name, Function<String, String> transformer){
 		return transformer.apply(name);
@@ -49,8 +53,5 @@ public class BuiltinFunctionalInterfaces {
 	public void printLog(String log, Consumer<String> logger){
 		logger.accept(log);
 	}
-	
-	public boolean equals(String a, String b, BiPredicate<String, String> equalsPredicate){
-		return equalsPredicate.test(a, b);
-	}
+		
 }

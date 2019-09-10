@@ -1,0 +1,35 @@
+full list of new features in JDK9:
+http://openjdk.java.net/projects/jdk9/
+-----------------------------------------------
+Modular System – Jigsaw Project
+
+http://openjdk.java.net/projects/jigsaw/quick-start
+
+modules:
+http://cr.openjdk.java.net/~mr/jigsaw/ea/module-summary.html
+
+tutorial:
+https://www.logicbig.com/tutorials/core-java-tutorial/modules/quick-start.html
+https://www.baeldung.com/java-9-modularity
+-----------------------------------------------
+JEP 269: Convenience Factory Methods for Collections
+-----------------------------------------------
+Stream Api Enhancements
+iterate, takeWhile, dropWhile, ofNullable
+-----------------------------------------------
+Optional Class Enhancements
+-----------------------------------------------
+JEP 266: Concurrency Updates
+-----------------------------------------------
+JEP 213: Milling Project Coin
+Try with resource enhancement
+-----------------------------------------------
+Interface changes
+-----------------------------------------------
+JEP 285: Spin-Wait Hints
+https://ionutbalosin.com/2018/06/onspinwait-method-from-thread-class/
+-----------------------------------------------
+JEP 193: Variable Handles
+-----------------------------------------------
+JEP 102: Process API Updates 
+-----------------------------------------------

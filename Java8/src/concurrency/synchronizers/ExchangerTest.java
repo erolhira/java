@@ -3,7 +3,12 @@ package concurrency.synchronizers;
 import java.util.concurrent.Exchanger;
 
 /*
- * The java.util.concurrent.Exchanger class represents a kind of rendezvous point where two threads can exchange objects.
+ * The java.util.concurrent.Exchanger class represents a kind of rendezvous point 
+ * where two threads can exchange objects.
+ * 
+ * Waits for another thread to arrive at this exchange point 
+ * (unless the current thread is interrupted), 
+ * and then transfers the given object to it, receiving its object in return.
  */
 public class ExchangerTest {
 
