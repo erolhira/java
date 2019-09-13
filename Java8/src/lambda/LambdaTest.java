@@ -1,15 +1,11 @@
 package lambda;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
-import java.util.OptionalDouble;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class LambdaTest {
@@ -25,7 +21,7 @@ public class LambdaTest {
 		Runnable r = () -> System.out.println("xyz");
 		r.run();
 		
-		List<String> list = Arrays.asList(new String[]{"1", "2", "3", "4"});
+		List<String> list = Arrays.asList(new String[]{"1", "2", "3", "4", "4"});
 		list.forEach(s -> System.out.println(s));
 		
 		list.stream()
@@ -64,37 +60,7 @@ public class LambdaTest {
 		
 		if(first.isPresent()){
 			logger.accept(first.get());
-		}
-		
-		//count
-		long count = list.stream().filter(t -> !t.equals("1")).count();
-		System.out.println("count: " + count);
-		
-		//max
-		list.stream().filter(t -> !t.equals("1"))
-			.max(Comparator.comparing(t -> Integer.parseInt(t)))
-			.ifPresent(t -> System.out.println("max: " + t));
-		
-		//sum
-		double sum = list.stream().mapToDouble(t -> Double.parseDouble(t)).sum();
-		System.out.println("sum" + list + ": " + sum);
-		
-		//average
-		OptionalDouble d1 = list.stream().mapToDouble(t -> Double.parseDouble(t)).average();
-		d1.ifPresent(t -> System.out.println("average" + list + ": " + t));
-		
-		//sort
-		List<String> newlist = list.stream().sorted(Comparator.comparing(t -> Integer.parseInt(t)))
-			.collect(Collectors.toList());
-		newlist.stream().forEach(t -> System.out.println("newlist: " + t));
-		
-		//concatenate
-		String str = list.stream().map(t -> t).distinct().sorted().collect(Collectors.joining(", "));
-		System.out.println("concatanated list: " + str);		
-		
-		//groupingBy		
-		Map<Integer, List<String>> map = list.stream().collect(Collectors.groupingBy(t -> t.hashCode()));
-		map.forEach((k,v) -> System.out.println(k + ": " + v));
+		}				
 		
 		System.out.println("asdasdasdasdadasdasd");
 	}
