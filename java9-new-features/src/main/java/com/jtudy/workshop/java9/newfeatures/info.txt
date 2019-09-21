@@ -65,6 +65,17 @@ than a throughput-oriented collector such as the Parallel GC, which is formerly 
 -----------------------------------------------
 JEP 158: Unified JVM Logging
 -----------------------------------------------
+JEP 222: jshell: The Java Shell (Read-Eval-Print Loop)
+-----------------------------------------------
+JEP 110: HTTP 2 Client
+JEP 110 implements HTTP/2 and WebSocket.
+This new HTTP client is included as an incubator module, and its goal is to replace the legacy HttpURLConnection API.
+-----------------------------------------------
 
 -----------------------------------------------
+
+-----------------------------------------------
+
+-----------------------------------------------
+
 
