@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="repository.spring.milestone" />
+      <option name="name" value="Spring Milestone Repository" />
+      <option name="url" value="http://repo.spring.io/milestone" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repository.spring.release" />
+      <option name="name" value="Spring GA Repository" />
+      <option name="url" value="http://repo.spring.io/release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jitpack" />
+      <option name="name" value="jitpack" />
+      <option name="url" value="https://jitpack.io" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="codehausSnapshots" />
+      <option name="name" value="Codehaus Snapshots" />
+      <option name="url" value="http://snapshots.maven.codehaus.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss" />
+      <option name="name" value="jboss" />
+      <option name="url" value="http://repository.jboss.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="glassfish" />
+      <option name="name" value="Glassfish repository" />
+      <option name="url" value="http://download.java.net/maven/1" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnrepo" />
+      <option name="name" value="mvnrepo" />
+      <option name="url" value="http://mvnrepository.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnCentral" />
+      <option name="name" value="mvnCentral" />
+      <option name="url" value="http://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype" />
+      <option name="name" value="sonatype" />
+      <option name="url" value="https://repository.sonatype.org/content/shadows/centralm1" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots" />
+      <option name="name" value="Apache Snapshot Repository" />
+      <option name="url" value="http://people.apache.org/repo/m2-snapshot-repository" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="virtual-mvn-release" />
+      <option name="url" value="https://github.com/jitsi/jitsi-maven-repository/raw/master/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvn-central" />
+      <option name="name" value="mvn-central" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="objectweb" />
+      <option name="name" value="Objectweb repository" />
+      <option name="url" value="http://maven.objectweb.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="virtual-mvn-snapshot" />
+      <option name="url" value="https://github.com/jitsi/jitsi-maven-repository/raw/master/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ops4j.repository" />
+      <option name="name" value="OPS4J Repository" />
+      <option name="url" value="http://repository.ops4j.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-snapshots" />
+      <option name="name" value="Spring Snapshots" />
+      <option name="url" value="https://repo.spring.io/snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnCentral2" />
+      <option name="name" value="mvnCentral2" />
+      <option name="url" value="http://repo2.maven.org/maven2" />
+    </remote-repository>
+  </component>
+</project>
